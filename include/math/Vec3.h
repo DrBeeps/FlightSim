@@ -15,6 +15,9 @@ public:
 
     Vec3 add(Vec3 v) const;
     Vec3 sub(Vec3 v) const;
+    
+    Vec3 divScalar(Vec3 v, float s) const;
+
     Vec3 norm() const;
     Vec3 cross(Vec3 v) const;
     float dot(Vec3 v) const;

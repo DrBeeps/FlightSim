@@ -20,6 +20,15 @@ Vec3 Vec3::sub(Vec3 v) const
     return ret;
 }
 
+Vec3 Vec3::divScalar(Vec3 v, float s) const
+{
+    Vec3 ret;
+    ret.x = v.x/s;
+    ret.y = v.y/s;
+    ret.z = v.z/s;
+    return ret;
+}
+
 Vec3 Vec3::norm() const
 {
     Vec3 ret;
